@@ -14,3 +14,13 @@
     ・各ボタンにポイントを当てた際にポップアップで軽い説明が表示される機能
 この開発自体は頓挫したが、（少なくとも簡単なwebアプリ程度なら）未経験の言語でもGoogleとYoutubeでそれなりのものは作れると思った。
 実際、phpは何も学習せずこのアプリが作れたので、文法などの基礎を３日くらいで勉強すればもっと綺麗なコードが書けると思った。
+
+開発環境：
+M1チップのMacBookAir
+MAMP
+
+DB構成は下記の通り
+DB名：adjust_schedule
+（テーブル：カラム、カラム、カラム、、、）
+・event：pk_event_id、eventname
+・schedule：pk_schedule_id、fk_event_id、date、time_start、time_end、applicant
